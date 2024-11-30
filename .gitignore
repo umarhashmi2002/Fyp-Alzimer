@@ -1,0 +1,22 @@
+# Ignore Python virtual environment
+Backend/venv/
+
+# Ignore node_modules
+Frontend/react-frontend/node_modules/
+Frontend/node_modules/
+
+# Ignore uploads and test files
+Backend/uploads/
+mask.mgz
+orig.mgz
+Backend/Model/_pycache_/
+Backend/Model/alzheimer_model.pth
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+*.log
+*.pyc
+
+# Ignore history files
+.history/
